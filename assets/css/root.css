@@ -1,0 +1,22 @@
+:root{
+    /* color  */
+    --color-red:#f53838;
+    --color-blue:#0B132A;
+    --color-light-blue:#4F5665;
+    --color-white:#FFFFFF;
+    --color-shadow:#fbfbfb;
+    /* font-family  */
+    --font-family: "rubik",sans-serif;
+        /* font-size */
+        --fs-20:20px;
+        --fs-16:16px;
+        --fs-14:14px;
+        --fs-50:50px;
+        --fs-35:35px;
+        --fs-18:18px;
+        --fs-25:25px;
+        /* font-weight */
+        --fw-400:400;
+        --fw-500:500;
+        --fw-700:700;
+}
