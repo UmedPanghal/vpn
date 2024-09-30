@@ -37,8 +37,8 @@
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse w-100 justify-content-between " id="navbarNav">
+                        <ul class="navbar-nav ms-auto me-auto gap-20">
                             <li class="nav-item">
                                 <a class="nav-link color-light-blue fw-400 fs-16 font-family" href="#">About</a>
                             </li>
@@ -55,16 +55,16 @@
                                 <a class="nav-link color-light-blue fw-400 fs-16 font-family" href="#">Help</a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <form class="d-flex gap-30 flex-direction-column-992 w-100">
-                            <button class="btn color-blue font-family fs-16 font-weight-500 white-space-nowrap">Sign
+                        <form class="d-flex gap-30 flex-direction-column-992 ">
+                            <button
+                                class="btn color-blue font-family fs-16 font-weight-500 white-space-nowrap border-none">Sign
                                 In</button>
                             <button
-                                class="btn sign-up color-red font-family fs-16 font-weight-500 white-space-nowrap">Sign
+                                class="btn  sign-up color-red font-family fs-16 font-weight-500 white-space-nowrap">Sign
                                 Up</button>
                         </form>
                     </div>
+
                 </div>
             </nav>
         </div>
@@ -94,81 +94,82 @@
     <!-- ____________________________header-over_________________  -->
 
     <!-- container-2  -->
-    <div class="container w-100 box-shadow mt-24 mt-lg-0">
-        <div class="row align-items-center justify-content-center ">
-            <div class="col-4 col-12 col-md-6 col-lg-4">
-                <div class="d-flex p-30">
-                    <svg class="mr-30 mt-30" width="55" height="56" viewBox="0 0 55 56" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
-                            style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M27.4996 26.3484C28.4544 26.3484 29.3701 25.9692 30.0452 25.294C30.7203 24.6189 31.0996 23.7032 31.0996 22.7484C31.0996 21.7937 30.7203 20.878 30.0452 20.2029C29.3701 19.5277 28.4544 19.1484 27.4996 19.1484C26.5448 19.1484 25.6292 19.5277 24.954 20.2029C24.2789 20.878 23.8996 21.7937 23.8996 22.7484C23.8996 23.7032 24.2789 24.6189 24.954 25.294C25.6292 25.9692 26.5448 26.3484 27.4996 26.3484ZM22.3983 37.1484C20.5765 37.1484 19.0419 35.617 19.739 33.9339C20.1612 32.9148 20.7799 31.9888 21.5599 31.2087C22.3399 30.4287 23.2659 29.81 24.2851 29.3878C25.3042 28.9657 26.3965 28.7484 27.4996 28.7484C28.6027 28.7484 29.695 28.9657 30.7142 29.3878C31.7333 29.81 32.6593 30.4287 33.4393 31.2087C34.2193 31.9888 34.8381 32.9148 35.2602 33.9339C35.9574 35.617 34.4228 37.1484 32.601 37.1484H22.3983Z"
-                            fill="#F53838"
-                            style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
-                    </svg>
-                    <div>
-                        <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">90+</h1>
-                        <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Users</p>
+    <section class="d-flex align-items-center ">
+        <div class="container w-100 box-shadow mt-24 mt-lg-0">
+            <div class="row align-items-center justify-content-center ">
+                <div class="col-4 col-12 col-md-6 col-lg-4">
+                    <div class="d-flex p-30">
+                        <svg class="mr-30 mt-30" width="55" height="56" viewBox="0 0 55 56" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
+                                style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M27.4996 26.3484C28.4544 26.3484 29.3701 25.9692 30.0452 25.294C30.7203 24.6189 31.0996 23.7032 31.0996 22.7484C31.0996 21.7937 30.7203 20.878 30.0452 20.2029C29.3701 19.5277 28.4544 19.1484 27.4996 19.1484C26.5448 19.1484 25.6292 19.5277 24.954 20.2029C24.2789 20.878 23.8996 21.7937 23.8996 22.7484C23.8996 23.7032 24.2789 24.6189 24.954 25.294C25.6292 25.9692 26.5448 26.3484 27.4996 26.3484ZM22.3983 37.1484C20.5765 37.1484 19.0419 35.617 19.739 33.9339C20.1612 32.9148 20.7799 31.9888 21.5599 31.2087C22.3399 30.4287 23.2659 29.81 24.2851 29.3878C25.3042 28.9657 26.3965 28.7484 27.4996 28.7484C28.6027 28.7484 29.695 28.9657 30.7142 29.3878C31.7333 29.81 32.6593 30.4287 33.4393 31.2087C34.2193 31.9888 34.8381 32.9148 35.2602 33.9339C35.9574 35.617 34.4228 37.1484 32.601 37.1484H22.3983Z"
+                                fill="#F53838"
+                                style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
+                        </svg>
+                        <div>
+                            <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">90+</h1>
+                            <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Users</p>
+                        </div>
+                        <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.7627V127.336" stroke="#EEEFF2"
+                                style="stroke:#EEEFF2;stroke:color(display-p3 0.9333 0.9373 0.9490);stroke-opacity:1;"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
                     </div>
-                    <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.5 1.7627V127.336" stroke="#EEEFF2"
-                            style="stroke:#EEEFF2;stroke:color(display-p3 0.9333 0.9373 0.9490);stroke-opacity:1;"
-                            stroke-width="2" stroke-linecap="round" />
-                    </svg>
                 </div>
-            </div>
-            <div class="col-4 col-12 col-md-6 col-lg-4">
-                <div class="d-flex p-30">
-                    <svg class="mr-30 mt-30" width="56" height="56" viewBox="0 0 56 56" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
-                            style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
-                        <path
-                            d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
-                            fill="#F53838"
-                            style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
-                    </svg>
+                <div class="col-4 col-12 col-md-6 col-lg-4">
+                    <div class="d-flex p-30">
+                        <svg class="mr-30 mt-30" width="56" height="56" viewBox="0 0 56 56" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
+                                style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
+                            <path
+                                d="M35 24.5488C35 23.6296 34.8189 22.7193 34.4672 21.87C34.1154 21.0208 33.5998 20.2491 32.9497 19.5991C32.2997 18.9491 31.5281 18.4335 30.6788 18.0817C29.8295 17.7299 28.9193 17.5488 28 17.5488C27.0807 17.5488 26.1705 17.7299 25.3212 18.0817C24.4719 18.4335 23.7003 18.9491 23.0503 19.5991C22.4002 20.2491 21.8846 21.0208 21.5328 21.87C21.1811 22.7193 21 23.6296 21 24.5488C21 25.9358 21.41 27.2258 22.105 28.3138H22.097C24.457 32.0088 28 37.5488 28 37.5488L33.903 28.3138H33.896C34.6164 27.1902 34.9995 25.8836 35 24.5488ZM28 27.5488C27.2044 27.5488 26.4413 27.2328 25.8787 26.6701C25.3161 26.1075 25 25.3445 25 24.5488C25 23.7532 25.3161 22.9901 25.8787 22.4275C26.4413 21.8649 27.2044 21.5488 28 21.5488C28.7956 21.5488 29.5587 21.8649 30.1213 22.4275C30.6839 22.9901 31 23.7532 31 24.5488C31 25.3445 30.6839 26.1075 30.1213 26.6701C29.5587 27.2328 28.7956 27.5488 28 27.5488Z"
+                                fill="#F53838"
+                                style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
+                        </svg>
 
-                    <div>
-                        <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">30+</h1>
-                        <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Locations</p>
+                        <div>
+                            <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">30+</h1>
+                            <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Locations</p>
+                        </div>
+                        <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1.7627V127.336" stroke="#EEEFF2"
+                                style="stroke:#EEEFF2;stroke:color(display-p3 0.9333 0.9373 0.9490);stroke-opacity:1;"
+                                stroke-width="2" stroke-linecap="round" />
+                        </svg>
                     </div>
-                    <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.5 1.7627V127.336" stroke="#EEEFF2"
-                            style="stroke:#EEEFF2;stroke:color(display-p3 0.9333 0.9373 0.9490);stroke-opacity:1;"
-                            stroke-width="2" stroke-linecap="round" />
-                    </svg>
                 </div>
-            </div>
-            <div class="col-4 col-12 col-md-6 col-lg-4">
-                <div class="d-flex p-30">
-                    <svg class="mr-30 mt-30" width="55" height="56" viewBox="0 0 55 56" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
-                            style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
-                        <path
-                            d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
-                            fill="#F53838"
-                            style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
-                    </svg>
-
-                    <div>
-                        <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">50+</h1>
-                        <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Servers</p>
-                    </div>
-                    <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
+                <div class="col-4 col-12 col-md-6 col-lg-4">
+                    <div class="d-flex p-30">
+                        <svg class="mr-30 mt-30" width="55" height="56" viewBox="0 0 55 56" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.0488281" width="55" height="55" rx="27.5" fill="#FFECEC"
+                                style="fill:#FFECEC;fill:color(display-p3 1.0000 0.9250 0.9250);fill-opacity:1;" />
+                            <path
+                                d="M35.5 18.5488H19.5C18.9696 18.5488 18.4609 18.7595 18.0858 19.1346C17.7107 19.5097 17.5 20.0184 17.5 20.5488V24.5488C17.5 25.0793 17.7107 25.588 18.0858 25.963C18.4609 26.3381 18.9696 26.5488 19.5 26.5488H35.5C36.0304 26.5488 36.5391 26.3381 36.9142 25.963C37.2893 25.588 37.5 25.0793 37.5 24.5488V20.5488C37.5 20.0184 37.2893 19.5097 36.9142 19.1346C36.5391 18.7595 36.0304 18.5488 35.5 18.5488ZM30.5 22.5488C30.5 23.1011 30.0523 23.5488 29.5 23.5488C28.9477 23.5488 28.5 23.1011 28.5 22.5488C28.5 21.9965 28.9477 21.5488 29.5 21.5488C30.0523 21.5488 30.5 21.9965 30.5 22.5488ZM34.5 22.5488C34.5 23.1011 34.0523 23.5488 33.5 23.5488C32.9477 23.5488 32.5 23.1011 32.5 22.5488C32.5 21.9965 32.9477 21.5488 33.5 21.5488C34.0523 21.5488 34.5 21.9965 34.5 22.5488ZM35.5 28.5488H19.5C18.9696 28.5488 18.4609 28.7595 18.0858 29.1346C17.7107 29.5097 17.5 30.0184 17.5 30.5488V34.5488C17.5 35.0793 17.7107 35.588 18.0858 35.963C18.4609 36.3381 18.9696 36.5488 19.5 36.5488H35.5C36.0304 36.5488 36.5391 36.3381 36.9142 35.963C37.2893 35.588 37.5 35.0793 37.5 34.5488V30.5488C37.5 30.0184 37.2893 29.5097 36.9142 29.1346C36.5391 28.7595 36.0304 28.5488 35.5 28.5488ZM30.5 32.5488C30.5 33.1011 30.0523 33.5488 29.5 33.5488C28.9477 33.5488 28.5 33.1011 28.5 32.5488C28.5 31.9965 28.9477 31.5488 29.5 31.5488C30.0523 31.5488 30.5 31.9965 30.5 32.5488ZM34.5 32.5488C34.5 33.1011 34.0523 33.5488 33.5 33.5488C32.9477 33.5488 32.5 33.1011 32.5 32.5488C32.5 31.9965 32.9477 31.5488 33.5 31.5488C34.0523 31.5488 34.5 31.9965 34.5 32.5488Z"
+                                fill="#F53838"
+                                style="fill:#F53838;fill:color(display-p3 0.9608 0.2196 0.2196);fill-opacity:1;" />
+                        </svg>
+                        <div>
+                            <h1 class="font-family fw-700 line-height-30 fs-25 color-blue mt-30">50+</h1>
+                            <p class="font-family line-height-30 fw-400 fs-20 color-light-blue">Servers</p>
+                        </div>
+                        <!-- <svg class="mr" width="3" height="129" viewBox="0 0 3 129" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.5 1.7627V127.336" stroke="#EEEFF2"
                             style="stroke:#EEEFF2;stroke:color(display-p3 0.9333 0.9373 0.9490);stroke-opacity:1;"
                             stroke-width="2" stroke-linecap="round" />
-                    </svg>
+                    </svg> -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- container-2-over  -->
 
     <!-- ******************___________secction-2_______________****************** -->
@@ -510,7 +511,7 @@
 
     <!-- ***********______________section-5 slider___________********** -->
     <section class="py-60 min-vh-100">
-        <div class="container">
+        <div class="container w-100">
             <div class="d-flex flex-direction-column align-items-center">
                 <h3
                     class=" font-family fs-35 line-height-50 align-items-center max-width-447 text-align-center color-blue pb-20">
@@ -521,147 +522,148 @@
                     feature.
                 </p>
             </div>
-        </div>
-        <div class="position-relative">
-            <div class="slider slider-start">
-                <div class="slide-card bg-color-white">
-                    <div class="d-flex navbar mb-20">
-                        <div class="d-flex">
-                            <img src="./assets/image/Ellipse-175-man-1.png" alt="Ellipse">
-                            <div class="ml-20">
-                                <p
-                                    class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
-                                    Viezh
-                                    Robert</p>
-                                <p
-                                    class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
-                                    Warsaw, Poland
-                                </p>
+            <!-- </div> -->
+            <div class="position-relative">
+                <div class="slider slider-start">
+                    <div class="slide-card bg-color-white">
+                        <div class="d-flex navbar mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/image/Ellipse-175-man-1.png" alt="Ellipse">
+                                <div class="ml-20">
+                                    <p
+                                        class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
+                                        Viezh
+                                        Robert</p>
+                                    <p
+                                        class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
+                                        Warsaw, Poland
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-10">
-                            <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
-                                    fill="#FEA250"
-                                    style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
-                            </svg>
-                        </div>
+                        <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
+                            “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
+                            so
+                            far there have been no
+                            problems. LaslesVPN always the best”.</p>
                     </div>
-                    <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
-                        “Wow... I am very happy to use this VPN, it turned out to be more than my expectations and
-                        so
-                        far there have been no
-                        problems. LaslesVPN always the best”.</p>
-                </div>
-                <div class="slide-card bg-color-white">
-                    <div class="d-flex navbar mb-20">
-                        <div class="d-flex">
-                            <img src="./assets/image/ellips-2-slider.png" alt="Ellipse">
-                            <div class="ml-20">
-                                <p
-                                    class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
-                                    Yessica Christy</p>
-                                <p
-                                    class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
-                                    Shanxi, China
-                                </p>
+                    <div class="slide-card bg-color-white">
+                        <div class="d-flex navbar mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/image/ellips-2-slider.png" alt="Ellipse">
+                                <div class="ml-20">
+                                    <p
+                                        class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
+                                        Yessica Christy</p>
+                                    <p
+                                        class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
+                                        Shanxi, China
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-10">
-                            <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
-                                    fill="#FEA250"
-                                    style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
-                            </svg>
-                        </div>
+                        <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
+                            “I like it because I like to travel far and still can connect with high speed.”.</p>
                     </div>
-                    <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
-                        “I like it because I like to travel far and still can connect with high speed.”.</p>
-                </div>
-                <div class="slide-card bg-color-white">
-                    <div class="d-flex navbar mb-20">
-                        <div class="d-flex">
-                            <img src="./assets/image/Ellipse-slider-3.png" alt="Ellipse">
-                            <div class="ml-20">
-                                <p
-                                    class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
-                                    Kim Young Jou</p>
-                                <p
-                                    class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
-                                    Seoul, South Korea
-                                </p>
+                    <div class="slide-card bg-color-white">
+                        <div class="d-flex navbar mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/image/Ellipse-slider-3.png" alt="Ellipse">
+                                <div class="ml-20">
+                                    <p
+                                        class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
+                                        Kim Young Jou</p>
+                                    <p
+                                        class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
+                                        Seoul, South Korea
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-10">
-                            <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
-                                    fill="#FEA250"
-                                    style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
-                            </svg>
-                        </div>
+                        <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
+                            “This is very unusual for my business that currently requires a virtual private network that
+                            has high security.”.</p>
                     </div>
-                    <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
-                        “This is very unusual for my business that currently requires a virtual private network that
-                        has high security.”.</p>
-                </div>
-                <div class="slide-card bg-color-white">
-                    <div class="d-flex navbar mb-20">
-                        <div class="d-flex">
-                            <img src="./assets/image/Ellipse-175-man-1.png" alt="Ellipse">
-                            <div class="ml-20">
-                                <p
-                                    class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
-                                    Viezh
-                                    Robert</p>
-                                <p
-                                    class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
-                                    Warsaw, Poland
-                                </p>
+                    <div class="slide-card bg-color-white">
+                        <div class="d-flex navbar mb-20">
+                            <div class="d-flex">
+                                <img src="./assets/image/Ellipse-175-man-1.png" alt="Ellipse">
+                                <div class="ml-20">
+                                    <p
+                                        class="font-family font-weight-500 fs-18 line-height-30 align-items-center mb-0 color-blue white-space-nowrap">
+                                        Viezh
+                                        Robert</p>
+                                    <p
+                                        class="font-family fw-400 fs-14 line-height-30 align-items-center mb-0 color-light-blue white-space-nowrap">
+                                        Warsaw, Poland
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-10">
+                                <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
+                                        fill="#FEA250"
+                                        style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
+                                </svg>
                             </div>
                         </div>
-                        <div class="d-flex align-items-center gap-10">
-                            <p class="mb-0 font-family fw-400 fs-16 line-height-30 color-blue ">4.5</p>
-                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.1887 6.16583L10.2215 5.58926L8.4481 1.99395C8.39966 1.89551 8.31998 1.81583 8.22154 1.76739C7.97466 1.64551 7.67466 1.74708 7.55123 1.99395L5.77779 5.58926L1.8106 6.16583C1.70123 6.18145 1.60123 6.23301 1.52466 6.31114C1.4321 6.40627 1.3811 6.53426 1.38286 6.66699C1.38461 6.79971 1.43899 6.9263 1.53404 7.01895L4.40435 9.81739L3.72623 13.769C3.71032 13.8609 3.7205 13.9554 3.75559 14.0418C3.79068 14.1283 3.84929 14.2032 3.92477 14.258C4.00025 14.3128 4.08958 14.3454 4.18263 14.352C4.27568 14.3586 4.36873 14.3391 4.45123 14.2955L7.99966 12.4299L11.5481 14.2955C11.645 14.3471 11.7575 14.3643 11.8653 14.3455C12.1372 14.2986 12.32 14.0408 12.2731 13.769L11.595 9.81739L14.4653 7.01895C14.5434 6.94239 14.595 6.84239 14.6106 6.73301C14.6528 6.45958 14.4622 6.20645 14.1887 6.16583Z"
-                                    fill="#FEA250"
-                                    style="fill:#FEA250;fill:color(display-p3 0.9961 0.6353 0.3137);fill-opacity:1;" />
-                            </svg>
-                        </div>
+                        <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
+                            “Wow... I am
+                            very happy to use this VPN, it turned out to be more than my expectations and so far there
+                            have
+                            been no
+                            problems. LaslesVPN always the best”.</p>
                     </div>
-                    <p class=" font-family fw-400 fs-16 line-height-30 align-items-center mb-0 color-blue">
-                        “Wow... I am
-                        very happy to use this VPN, it turned out to be more than my expectations and so far there
-                        have
-                        been no
-                        problems. LaslesVPN always the best”.</p>
                 </div>
+                <button class="prev d-flex align-items-center ">
+                    <svg class="svg" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
+                            fill="#F53838" />
+                    </svg>
+                </button>
+                <button class="next d-flex align-items-center ">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
+                            fill="#F53838" />
+                    </svg>
+                </button>
             </div>
-            <button class="prev d-flex align-items-center ">
-                <svg class="svg" width="20" height="18" viewBox="0 0 20 18" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M18.75 7.74961H3.925L8.4625 2.29961C8.67467 2.04434 8.77675 1.71524 8.74628 1.38471C8.7158 1.05417 8.55527 0.749285 8.3 0.537112C8.04473 0.324939 7.71563 0.222862 7.3851 0.253336C7.05456 0.283811 6.74967 0.444341 6.5375 0.699612L0.2875 8.19961C0.245451 8.25927 0.207849 8.32194 0.175 8.38711C0.175 8.44961 0.175 8.48711 0.0875002 8.54961C0.0308421 8.69294 0.0011764 8.8455 0 8.99961C0.0011764 9.15372 0.0308421 9.30629 0.0875002 9.44961C0.0875002 9.51211 0.0874998 9.54961 0.175 9.61211C0.207849 9.67729 0.245451 9.73996 0.2875 9.79961L6.5375 17.2996C6.65503 17.4407 6.8022 17.5542 6.96856 17.632C7.13491 17.7097 7.31636 17.7499 7.5 17.7496C7.79207 17.7502 8.07511 17.6485 8.3 17.4621C8.42657 17.3572 8.5312 17.2283 8.60789 17.0829C8.68458 16.9374 8.73183 16.7783 8.74692 16.6146C8.76202 16.4509 8.74466 16.2858 8.69586 16.1288C8.64705 15.9718 8.56775 15.8259 8.4625 15.6996L3.925 10.2496H18.75C19.0815 10.2496 19.3995 10.1179 19.6339 9.8835C19.8683 9.64907 20 9.33113 20 8.99961C20 8.66809 19.8683 8.35015 19.6339 8.11573C19.3995 7.88131 19.0815 7.74961 18.75 7.74961Z"
-                        fill="#F53838" />
-                </svg>
-            </button>
-            <button class="next d-flex align-items-center ">
-                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M6.25 13.7496H21.075L16.5375 8.29961C16.3253 8.04434 16.2232 7.71524 16.2537 7.38471C16.2842 7.05417 16.4447 6.74929 16.7 6.53711C16.9553 6.32494 17.2844 6.22286 17.6149 6.25334C17.9454 6.28381 18.2503 6.44434 18.4625 6.69961L24.7125 14.1996C24.7545 14.2593 24.7922 14.3219 24.825 14.3871C24.825 14.4496 24.825 14.4871 24.9125 14.5496C24.9692 14.6929 24.9988 14.8455 25 14.9996C24.9988 15.1537 24.9692 15.3063 24.9125 15.4496C24.9125 15.5121 24.9125 15.5496 24.825 15.6121C24.7922 15.6773 24.7545 15.74 24.7125 15.7996L18.4625 23.2996C18.345 23.4407 18.1978 23.5542 18.0314 23.632C17.8651 23.7097 17.6836 23.7499 17.5 23.7496C17.2079 23.7502 16.9249 23.6485 16.7 23.4621C16.5734 23.3572 16.4688 23.2283 16.3921 23.0829C16.3154 22.9374 16.2682 22.7783 16.2531 22.6146C16.238 22.4509 16.2553 22.2858 16.3041 22.1288C16.3529 21.9718 16.4322 21.8259 16.5375 21.6996L21.075 16.2496H6.25C5.91848 16.2496 5.60054 16.1179 5.36612 15.8835C5.13169 15.6491 5 15.3311 5 14.9996C5 14.6681 5.13169 14.3501 5.36612 14.1157C5.60054 13.8813 5.91848 13.7496 6.25 13.7496Z"
-                        fill="#F53838" />
-                </svg>
-            </button>
         </div>
     </section>
     <!-- ____________________section-5-over______________ -->
@@ -669,7 +671,7 @@
     <!-- *************____________________footer____________********* -->
     <footer class="d-flex align-items-center py-60  color-shadow position-relative ">
         <div class="container">
-            <div class="card position-absoulute w-60 w-100 footer-card border-none">
+            <!-- <div class="card position-absoulute w-60 w-100 footer-card border-none">
                 <div class="row">
                     <div class="col-6 col-xl-6 col-12">
                         <h2 class="font-family font-weight-500 fs-35 line-height-50 color-blue mt-20">
@@ -686,7 +688,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row py-60">
                 <div class="col-4 col-12 col-sm-6 col-md-4 col-lg-4">
                     <a class="navbar-brand font-family fs-20 color-blue font-weight-500 line-height-23" href="#"><svg
@@ -789,7 +791,7 @@
                         ©2020Lasles<span class="font-weight-500">VPN</span></p>
                 </div>
                 <div class="col-2 col-12 col-sm-6 col-md-4 col-lg-2 mt-24 mt-sm-0">
-                    <ul>
+                    <ul class="ps-0">
                         <li>
                             <p class="font-family mb-30 font-weight-500 fs-18 line-height-30 color-blue  ">Product
                             </p>
@@ -809,7 +811,7 @@
                     </ul>
                 </div>
                 <div class="col-3 col-12 col-sm-6 col-md-4 col-lg-3 mt-24 mt-md-0">
-                    <ul>
+                    <ul class="ps-0">
                         <li>
                             <p class="font-family mb-30 font-weight-500 fs-18 line-height-30 color-blue ">Engage
                             </p>
@@ -829,7 +831,7 @@
                     </ul>
                 </div>
                 <div class="col-3 col-12 col-sm-6 col-md-4 col-lg-3 mt-24 mt-lg-0 ">
-                    <ul>
+                    <ul class="ps-0">
                         <li>
                             <p class="font-family font-weight-500 fs-18 line-height-30 color-blue mb-30">Earn Money
                             </p>

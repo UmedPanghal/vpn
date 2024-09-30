@@ -13,11 +13,21 @@
 .bg-body-tertiary {
     --bs-bg-opacity: 0 !important;
 }
-
+.nav-link:hover {
+    transform: scale(1.2);
+    background-color: #DDE0E4;
+    border-radius: 50px;
+    color: white !important;
+} 
 .sign-up {
     border: 2px solid #F53855 !important;
     border-radius: 50px !important;
     padding: 13px 45px !important;
+}
+
+.sign-up:hover {
+    color: #FFFFFF !important;
+    background-color: var(--color-red) !important;
 }
 
 /* color  */
@@ -263,7 +273,9 @@
 .gap-30 {
     gap: 30px;
 }
-
+.gap-20{
+    gap: 20px;
+}
 .gap-10 {
     gap: 10px;
 }
@@ -321,7 +333,7 @@
     padding: 13px 60px !important;
 }
 
-.btn:hover {
+.btn-select:hover {
     color: #FFFFFF !important;
     background-color: var(--color-red) !important;
     box-shadow: 0 28px 19px -5px #F5383859 !important;
@@ -428,6 +440,9 @@
         fill: white;
     }
 }
+
+/* slider-overflow-stop  */
+
 
 /* footer   */
 .cursior-pointer {
