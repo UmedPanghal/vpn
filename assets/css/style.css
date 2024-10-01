@@ -113,6 +113,14 @@
     padding-bottom: 20px !important;
 }
 
+.padding-fac {
+    padding: 9px 15px;
+}
+
+.padding-twit {
+    padding: 10px 12px;
+}
+
 /* margin  */
 .ml {
     margin-left: auto;
@@ -469,6 +477,15 @@
 /* footer   */
 .cursior-pointer {
     cursor: pointer;
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.border-radius-100 {
+    border-radius: 100px;
+
 }
 
 footer ul {
